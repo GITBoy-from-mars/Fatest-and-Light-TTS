@@ -26,20 +26,19 @@ This Python-based project uses **Selenium**, **Speech Recognition (via Web Speec
    ```bash
    pip install selenium webdriver-manager mtranslate
    ```
-
-3. **Create the required folder structure:**
+   or Simply run
+   ```bash
+   pip install -r requirements.txt
    ```
-   .
-   ├── Data/
-   │   └── audio.html         # Auto-generated
-   ├── Frontend/
-   │   └── files/
-   │       └── Status.data    # Auto-generated
+
+4. **Create the required folder structure:**
+   ```
+
    ├── .env
    └── speech_to_text.py
    ```
 
-4. **Create a `.env` file in the root directory:**
+5. **Create a `.env` file in the root directory:**
    ```
    InputLanguage=en-US
    ```
