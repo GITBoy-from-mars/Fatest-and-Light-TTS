@@ -92,7 +92,7 @@ driver = webdriver.Chrome(service=Service, options=chrome_options)
 # driver = webdriver.Chrome(ChromeDriverManager().install())
 
 # Define the
-TempDirPath = rf"{current_dir}/Frontend/Files"
+TempDirPath = rf"{current_dir}/files/status"
 
 # Function to set the assistant's status by writing it to a file.
 def SetAssistantStatus(Status):
